@@ -23,7 +23,7 @@ export default function header(){
             </nav>
             <div className={S.boxSearch}>
                 <input className={S.boxInput} type="text" placeholder= "O que você procura?" />
-                <img src={busca} alt="" />
+                <img src={busca} alt="imagem de lupa" />
             </div>
         </header>
         <Routes>

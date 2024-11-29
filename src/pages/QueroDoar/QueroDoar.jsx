@@ -3,14 +3,13 @@ import livro from '../../assets/Vector.png'
 
 export default function QueroDoar(){
     return(
-        <section className={S.pricipal}>
+        <section className={S.principal}>
             <section className={S.container}>
-                <h2>Por favor, preencha o formulário com suas informações e as informações do Livro</h2>
+                <p>Por favor, preencha o formulário com suas informações e as informações do Livro</p>
                 <form action="">
                     <div>
                         <img src={livro} alt="ícone de um livro" />
-                        <h3>Informações do Livro
-                        </h3>
+                        <p>Informações do Livro</p>
                     </div>
                     <input type="text" placeholder='Título' />
                     <input type="text" placeholder='Categoria' />

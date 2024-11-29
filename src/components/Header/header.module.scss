@@ -51,17 +51,48 @@ header{
     }
 
     .boxInput{
+        width: 15vw;
         border: none;
         outline: none;
         background-color: transparent;
-        padding-left: 20px;
+        padding-left: 15px;
         color: white;
-        font-size: 17px;
+        font-size: 16px;
         &::placeholder{
             color: white;
+            
         }
     }
+    @media(max-width: 1170px){
+        .boxLogo{
+            border: solid 2px red;
+            h1{
+                font-size: 2vw;
+            }
+            img{
+                width: 5vw;
+            }
+        }
 
+        .boxMenu{
+         border: solid 2px yellow;
+         ul{
+            font-size: 1.6vw;
+         }
+        }
+
+        .boxSearch{
+            width: 20vw;
+        }
+        .boxInput{
+            width: 15vw;
+            &::placeholder{
+                font-size: 1.3vw;
+            }
+        }
+            
+        }
+   
 
 
 

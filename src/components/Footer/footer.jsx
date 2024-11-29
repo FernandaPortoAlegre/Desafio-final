@@ -11,11 +11,11 @@ export default function footer(){
             <section className={S.boxSocial}>
                <h3>4002-8922</h3>
         <nav>
-            <a href=""><img src={facebook} alt="" /></a>
-            <a href=""><img src={twitter} alt="" /></a>
-            <a href=""><img src={youtube} alt="" /></a>
-            <a href=""><img src={linkedin} alt="" /></a>
-            <a href=""><img src={instagram} alt="" /></a>
+            <a href=""><img src={facebook} alt="imagem do facebook" /></a>
+            <a href=""><img src={twitter} alt="imagem do twitter" /></a>
+            <a href=""><img src={youtube} alt="imagem do youtube" /></a>
+            <a href=""><img src={linkedin} alt="imagem do linkedin" /></a>
+            <a href=""><img src={instagram} alt="imagem do instagram" /></a>
         </nav>
 
             </section>
