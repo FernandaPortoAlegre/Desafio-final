@@ -1,6 +1,6 @@
-# React + Vite
+# Livros Vai na Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido para fins de estudo como um desafio de aula no curso Vai na Web.
 
 Currently, two official plugins are available:
 
