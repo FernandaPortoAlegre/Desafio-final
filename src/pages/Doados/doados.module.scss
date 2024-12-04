@@ -22,14 +22,16 @@
         width: 200px;
         height: 32vh;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
         flex-direction: column;
         border-radius: 13px;
         img{
             padding-bottom: 20px;
         }
-
+        h1{
+            text-align: center;
+        }
     }
 }
 
@@ -37,11 +39,11 @@
     .boxCard{
         article{
             width: 16vw;
-            h3{
+            h1{
                 font-size: 17px;
             }
             p{
-                font-size: 14px;
+                font-size: 10px;
             }
         }
     }

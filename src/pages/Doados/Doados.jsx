@@ -10,13 +10,13 @@ export default function Doados(){
             <section className={S.boxcard}>
                 <article>
                     <img src={livro} alt="imagem de um livro que se chama o protagonista" />
-                    <h3>O protagonista</h3>
+                    <h1>O protagonista</h1>
                     <p>Susanne Andrade</p>
                     <p>Ficção</p>
                 </article>
                 <article>
                     <img src={livrosegundo} alt="imagem de um livro que se chama o protagonista" />
-                    <h3>Como eu era antes de você</h3>
+                    <h1>Como eu era antes de você</h1>
                     <p>Jojo Moyes</p>
                     <p>Romance</p>
                 </article>
