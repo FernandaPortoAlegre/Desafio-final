@@ -1,5 +1,4 @@
 footer{
-    //border: solid 2px green;
     height: 30vh;
     color: #FFFFFFDB;
 }
@@ -26,4 +25,24 @@ height: 12vh;
 display: flex;
 align-items: center;
 justify-content: center;
+}
+
+@media(max-width: 1000px){
+   
+   .boxSocial{
+      nav{
+         width: 230px;
+      }
+   }
+}
+
+@media(max-width: 585px){
+   
+   .boxSocial{
+      flex-direction: column;
+      justify-content: space-evenly;
+   }
+   .boxTexto{
+      text-align: center;
+   }
 }

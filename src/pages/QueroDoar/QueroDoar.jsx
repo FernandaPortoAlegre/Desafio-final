@@ -5,7 +5,7 @@ export default function QueroDoar(){
     return(
         <section className={S.principal}>
             <section className={S.container}>
-                <p>Por favor, preencha o formulário com suas informações e as informações do Livro</p>
+                <h2>Por favor, preencha o formulário com suas informações e as informações do Livro</h2>
                 <form action="">
                     <div>
                         <img src={livro} alt="ícone de um livro" />
