@@ -1,8 +1,8 @@
-# React + Vite
+# 📖 Livros Vai na Web 📖
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🖥️Este projeto foi desenvolvido como parte de um desafio no curso Vai na Web, com o objetivo de aprofundar conhecimentos e concluir a formação em Front-end.
 
-Currently, two official plugins are available:
+🖼️O curso Vai na Web forneceu o arquivo figma deste desafio!
+🔗 Acesse aqui: https://www.figma.com/design/MDGn9uI2Ny5Y8sOJWnmfRp/Proposta-Empower?node-id=0-1&node-type=canvas&t=EndtmH2witkacjOy-0
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+💻O desafio foi desenvolvido em React.js, Sass, HTML5 e Javascript.
