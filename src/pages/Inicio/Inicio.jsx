@@ -21,7 +21,7 @@ export default function Inicio(){
             <p> Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social.</p>
           </article>
           <article>
-            <img src={read} alt="imagem lendo um livro" />
+            <img src={read} alt="imagem de pessoa lendo um livro" />
             <p> Estimula o hábito da leitura e o aprendizado contínuo.</p>
           </article>
           <article>
