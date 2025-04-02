@@ -12,6 +12,7 @@ export default function Doados(){
     const getLivros = async () => {
         const response = await axios.get("https://api-livros-v13o.onrender.com/livros")
         setLivros(response.data)
+        console.log(response)
     }
     
     useEffect(()=>{
@@ -29,14 +30,9 @@ export default function Doados(){
                     <p>Susanne Andrade</p>
                     <p>Ficção</p>
                 </article>
-                <article>
-                    <img src={livrosegundo} alt="imagem de um livro que se chama o protagonista" />
-                    <h1>Como eu era antes de você</h1>
-                    <p>Jojo Moyes</p>
-                    <p>Romance</p>
-                </article>
+
                 {livros.map((item)=>(
-                    <article>
+                    <article key={item.id}>
                         <img src={item.imagem_url} alt="" />
                         <h3>{item.titulo}</h3>
                         <p>{item.categoria}</p>
